@@ -1,17 +1,19 @@
+
 <h1 align="center">MaterialHeader</h1>
 <h4 align="center">Android Library</h4>
 <p align="center">Android UI Library For Quick Image ViewPager With Image Fast Loading and Caching For Making Material Header</p>
-
+#MaterialHeader
 ![](https://github.com/Elbehiry/MaterialHeader/blob/master/screenshots/remote.gif)
 ![](https://github.com/Elbehiry/MaterialHeader/blob/master/screenshots/local.gif)
 
-# Gradle Dependency
+#Gradle Dependency
 
-### Repository
+###Repository
 The Gradle dependency is available via [jCenter](https://bintray.com/drummer-aidan/maven/material-dialogs/view).
 jCenter is the default Maven repository used by Android Studio.
 
-```gradle
+
+```groovy
 dependencies {
 	// ... other dependencies here
 
@@ -19,8 +21,8 @@ dependencies {
 }
 ```
 
-
-```maven
+#Maven Dependency
+```groovy
 	<dependency>
  	<groupId>com.elbehiry.header</groupId> 
 	<artifactId>header</artifactId>
@@ -30,8 +32,8 @@ dependencies {
 ```
 
 
-## Usage
-### add viewpager in your xml layout ,and viewgroup of circles
+##Usage
+###add viewpager in your xml layout ,and viewgroup of circles
 
 
 
@@ -53,7 +55,7 @@ dependencies {
 	android:orientation="horizontal">
 	</LinearLayout>
 ```
-### add default array of images, or array of links you want to fetech!
+###add default array of images, or array of links you want to fetech!
 
 ```Java
 	int [] images = {
