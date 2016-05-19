@@ -12,18 +12,6 @@
 The Gradle dependency is available via [jCenter](https://bintray.com/drummer-aidan/maven/material-dialogs/view).
 jCenter is the default Maven repository used by Android Studio.
 
-add this in build.gradle of your project
-```groovy
-allprojects {
-    repositories {
-        // ... other repositories
-        maven {
-            url 'https://dl.bintray.com/melbehiry/maven'
-        }
-    }
-}
-```
-
 
 ```groovy
 dependencies {
