@@ -54,7 +54,7 @@ dependencies {
 	android:layout_width="match_parent" 
 	android:layout_height="match_parent" 
 	android:focusable="true"/>
-    	/>
+    	
 ```
 ```xml
 	<LinearLayout 
