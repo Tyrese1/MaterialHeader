@@ -12,6 +12,8 @@
 The Gradle dependency is available via [jCenter](https://bintray.com/drummer-aidan/maven/material-dialogs/view).
 jCenter is the default Maven repository used by Android Studio.
 
+add this in build.gradle of your project
+
 
 ```groovy
 dependencies {
@@ -30,7 +32,16 @@ dependencies {
 	<type>pom</type> 
 	</dependency>
 ```
-
+##Permission
+###add permissions needed for internet request and caching
+```xml
+    <uses-permission android:name="android.permission.INTERNET"/>
+   	
+```
+```xml
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>  	
+```
 
 ##Usage
 ###add viewpager in your xml layout ,and viewgroup of circles
